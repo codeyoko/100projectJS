@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    flex-direction: column;
+}
+
+button#rollButton {
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    background: aqua;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button#rollButton:hover {
+    background: red;
+    color: white;
+}
+
+.control-label{
+    font-size: 20px;
+    color: blue;
+}
+.control-label:first-child {
+    color: aqua;
+}
