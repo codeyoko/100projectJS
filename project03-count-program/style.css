@@ -1,0 +1,49 @@
+.container {
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label#countLabel {
+    font-size: 75px;
+    color: red;
+}
+
+div#containerBTN {
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button#decreaseBtn {
+    background: #d05c5c;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button#resetBtn {
+    background: #ded383;
+    color: back;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button#increaseBtn {
+    background: #d05cc6;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
