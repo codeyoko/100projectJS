@@ -1,0 +1,37 @@
+div#dice-container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    background: aquamarine;
+    box-shadow: 0px 0px 6px 0px;
+}
+
+h1 {
+    color: red;
+}
+
+button {
+    padding: 5px 10px;
+    background: coral;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#diceImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    margin-top: 40px;
+
+}
+img {
+    padding: 5px;
+    border: none;
+    border-radius: 16px;
+}
