@@ -1,0 +1,36 @@
+
+.click {
+    display: flex;
+    width: 300px;
+    height:300px;
+    background-color: rgb(58, 237, 58);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box1 {
+    display: flex;
+    width: 300px;
+    height:300px;
+    background-color: tomato;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#show-hide {
+    margin-top: 20px;
+   
+}
+button {
+    padding:10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
