@@ -1,0 +1,25 @@
+.slider {
+    width: 100%;
+    position: relative;
+}
+.sliders img {
+    width: 300px;
+    display: none;
+    
+}
+.sliders .displaySlider {
+    width: 300px;
+    display: block;
+}
+button.prev {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+}
+
+button.next {
+    position: absolute;
+    left: 19%;
+    top: 40%;
+    cursor: pointer;
+}
